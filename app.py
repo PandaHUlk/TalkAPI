@@ -213,7 +213,7 @@ def main():
     # Header
     st.markdown("""
     <div class="main-header">
-        <h1>📄 JSON RAG System</h1>
+        <h1>📄 Talk to YourAPI</h1>
         <p>Upload multiple JSON documents and ask questions using AI-powered search</p>
     </div>
     """, unsafe_allow_html=True)
