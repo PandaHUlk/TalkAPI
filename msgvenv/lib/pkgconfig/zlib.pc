@@ -1,0 +1,13 @@
+prefix=/Users/gulshanmundri/Documents/rag/msgvenv
+exec_prefix=/Users/gulshanmundri/Documents/rag/msgvenv
+libdir=/Users/gulshanmundri/Documents/rag/msgvenv/lib
+sharedlibdir=/Users/gulshanmundri/Documents/rag/msgvenv/lib
+includedir=/Users/gulshanmundri/Documents/rag/msgvenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
